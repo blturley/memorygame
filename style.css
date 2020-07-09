@@ -1,0 +1,38 @@
+html {
+	height: fit-content;
+}
+
+body {
+	background-image: linear-gradient(rgba(146, 214, 235, 0.315), rgba(121, 64, 177, 0.315)),
+		url(https://images7.alphacoders.com/320/320192.jpg);
+	background-size: 100vw;
+	background-attachment: fixed;
+}
+
+#game div {
+	border: 1px solid black;
+	width: fit-content;
+	height: fit-content;
+	margin: 10px;
+	display: inline-block;
+	font-size: 15vw;
+	color: black;
+	background: radial-gradient(circle, rgba(238, 174, 202, 0.4) 0%, rgba(148, 187, 233, 0.4) 100%);
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: Papyrus, fantasy;
+}
+
+body {
+	text-align: center;
+}
+
+#game {
+	text-align: center;
+	width: 59%;
+	display: inline-block;
+}
